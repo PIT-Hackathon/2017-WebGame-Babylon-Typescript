@@ -1,0 +1,35 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"module": "commonjs",
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"moduleResolution": "node",
+		"sourceMap": true,
+		"allowJs": true,
+		"typeRoots": [
+			"./node_modules/@types"
+		],
+		"lib": [
+			"dom",
+			"es7"
+		]
+	},
+	"awesomeTypescriptLoaderOptions": {
+		"doTypeCheck": true,
+		"forkChecker": true,
+		"useBabel": false,
+		"useCache": true,
+		"babelOptions": {
+			"presets": [
+				"es2015-loose-native-modules"
+			]
+		}
+	},
+	"exclude": [
+		"node_modules",
+		"dist",		
+		"webpack.config.js",
+		"config"
+	]
+}

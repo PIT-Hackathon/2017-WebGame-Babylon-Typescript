@@ -1,0 +1,23 @@
+{
+  "name": "2017-webgame-babylon-es2017",
+  "version": "1.0.0",
+  "description": "",
+  "author": "PIT-Hackathon",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack",
+    "deploy": "webpack --config webpack.production.config.js",
+    "test": "eslint ./src/**/**.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.2.3",
+    "browser-sync": "^2.18.13",
+    "browser-sync-webpack-plugin": "^1.2.0",
+    "typescript": "^2.5.2",
+    "webpack": "^3.4.1"
+  },
+  "dependencies": {
+    "babylonjs": "^3.1.0-alpha1"
+  }
+}
